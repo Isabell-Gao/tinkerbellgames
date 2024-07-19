@@ -1,0 +1,48 @@
+body{
+    background-color: aliceblue;
+}
+#homepage {
+    background-color:aliceblue;
+    color: rgba(240, 190, 66, 0.86);
+    border: none;
+    padding: 40px;
+    font-size: 45px;
+
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+
+}
+
+img{
+    width: 90%;
+    height: 90%;
+    border: none;
+    float: left;
+}
+img:hover{
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgray;
+}
+h1 {
+    color: rgb(54, 54, 1);
+}
+button {
+    background-color: darkgray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 5%;
+
+}
+
+button:hover{
+    background-color:lightblue;
+    color:black;
+    cursor: pointer;
+}
+#NumberGuessing, #SchulteGrid, #Sukodu, #Rock-Paper-Scissors {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
